@@ -1,27 +1,27 @@
-### Web Proxy Server  
+# Web Proxy Server  
 **Mini Project on Computer Networks: Web Proxy Server**  
 
 ---
 
-#### **Overview**  
+## **Overview**  
 This project implements a web proxy server in Python using socket programming. It enables the creation of a basic proxy server capable of handling HTTP requests and responses.  
 
 ---
 
-#### **Key Features**  
+## **Key Features**  
 - Facilitates communication between clients and servers by acting as an intermediary.  
 - Supports basic HTTP GET requests.  
 - Allows easy configuration of the proxy server's host and port.  
 
 ---
 
-#### **Requirements**  
+## **Requirements**  
 - Python 3.x  
 - Active internet connection (to proxy external websites).  
 
 ---
 
-#### **How to Use**  
+## **How to Use**  
 1. Clone this repository to your local machine.  
 2. Open a terminal and navigate to the project directory:  
    ```bash
@@ -37,14 +37,14 @@ This project implements a web proxy server in Python using socket programming. I
 
 ---
 
-#### **Configuration Options**  
+## **Configuration Options**  
 - To set a different listening port, update the `listen_port` variable in the `main()` function of `proxy_server.py`.  
 - To adjust the maximum allowed connections, modify the `max_conn` variable in the script.  
 - To customize the buffer size for data transmission, update the `buffer_size` variable.  
 
 ---
 
-#### **Contributing**  
+## **Contributing**  
 Contributions are highly encouraged! Feel free to submit pull requests for bug fixes or feature enhancements, or open issues for discussions.  
 
 --- 
